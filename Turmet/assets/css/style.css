@@ -1,0 +1,13 @@
+
+:root{
+    --bs-primary:#1ca8cb;
+    --bs-secondary:#113d48;
+    --bs-dark: #181818;
+    --bs-font-sans-serif: 'Jost';
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
