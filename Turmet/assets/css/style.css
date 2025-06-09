@@ -45,3 +45,8 @@ ul {
     left: -27px;
     top: 8px;
 }
+.bg-img{
+    background-image: url('https://turmet-nextjs.vercel.app/assets/img/choose-us-bg-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
