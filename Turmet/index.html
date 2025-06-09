@@ -19,24 +19,24 @@
 </head>
 
 <body>
-    <header>
-        <!-- top bar -->
-        <div class="top-bar bg-dark p-2">
+    <!-- top bar -->
+    <header style="position: absolute;  width: 100%;">
+        <div class="top-bar  bg-transperent text-white">
             <div class="container">
-                <div class="row justify-content-between">
+                <div class="row justify-content-between" style="padding-top:20px;">
                     <div class="col-7">
                         <ul class="d-flex m-0 gap-3 p-0">
-                            <li><a href="https://maps.app.goo.gl/vkKaNXkGT3RzMkvXA" class="text-white"><i
+                            <li><a href="https://maps.app.goo.gl/vkKaNXkGT3RzMkvXA" class="text-white font"><i
                                         class="bi bi-geo-alt-fill me-2"></i>742 Evergreen Terrace Brooklyn, NY 11201</a>
                             </li>
-                            <li><a href="tel:+929 333 9296" class="text-white"><i
+                            <li><a href="tel:+929 333 9296" class="text-white font"><i
                                         class="bi bi-telephone-fill me-2"></i>+929 333 9296</a></li>
-                            <li><a href="mailto:contact@almaris.com" class="text-white"><i
+                            <li><a href="mailto:contact@almaris.com" class="text-white font"><i
                                         class="bi bi-envelope-fill me-2"></i>contact@almaris.com</a></li>
                         </ul>
                     </div>
                     <div class="col-2">
-                        <ul class="d-flex m-0 gap-4">
+                        <ul class="d-flex m-0 gap-4 ">
                             <li><a href="#" class="text-white"><i class="bi bi-facebook"></i></a></li>
                             <li><a href="#" class="text-white"><i class="bi bi-instagram"></i></a></li>
                             <li><a href="#" class="text-white"><i class="bi bi-twitter-x"></i></a></li>
@@ -47,96 +47,463 @@
             </div>
         </div>
         <!-- navbar -->
-        <nav>
-            <div class="container-fluid bg-dark">
-                <div class="row d-flex justify-content-between ">
-                    <div class="col-2 ms-5 align-items-center d-flex p-4">
+        <nav class="navbar" style="background-color: transparent;">
+            <div class="container-fluid">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-2 ms-0 align-items-center d-flex p-5">
                         <img src="./assets/images/main logo/white-logo.svg" alt="img1">
                     </div>
-                    <div class="col-6 d-flex align-items-center">
+                    <div class="col-8 d-flex align-items-center">
                         <ul class="mx-auto d-flex">
-                            <li class="nav-item dropdown p-4">
-                                <a class="nav-link dropdown-toggle text-white fs-5" href="#" role="button"
+                            <li class="nav-item dropdown p-4 font">
+                                <a class="nav-link dropdown-toggle text-white fs-6 font" href="#" role="button"
                                     data-bs-toggle="dropdown">
                                     Home
                                 </a>
-                                <ul class="dropdown-menu m-0 border-0 shadow">
-                                    <li><a class="dropdown-item fs-5" href="#">About Us</a></li>
-                                    <li><a class="dropdown-item fs-5" href="#">Facilities</a></li>
-                                    <li><a class="dropdown-item fs-5" href="#">Offer</a></li>
-                                    <li><a class="dropdown-item fs-5" href="#">Gallery</a></li>
-                                    <li><a class="dropdown-item fs-5" href="#">Gallery Carousel</a></li>
+                                <ul class="dropdown-menu m-0 border-0 shadow font">
+                                    <li class="font"><a class="dropdown-item fs-5" href="#">Home version 1 </a></li>
+                                    <li class="font"><a class="dropdown-item fs-5" href="#">Home version 2</a></li>
+                                    <li class="font"><a class="dropdown-item fs-5" href="#">Home version 3</a></li>
+
                                 </ul>
                             </li>
-                            <li class="nav-item p-4">
-                                <a class="nav-link disabled text-white fs-5" aria-disabled="true">About Us</a>
+                            <li class="nav-item p-4 font">
+                                <a class="nav-link disabled text-white fs-6" aria-disabled="true">About Us</a>
                             </li>
-                            <li class="nav-item dropdown p-4">
-                                <a class="nav-link dropdown-toggle text-white fs-5" href="#" role="button"
+                            <li class="nav-item dropdown p-4 font">
+                                <a class="nav-link dropdown-toggle text-white fs-6 font" href="#" role="button"
                                     data-bs-toggle="dropdown">
                                     Destination
                                 </a>
-                                <ul class="dropdown-menu m-0 border-0 shadow">
-                                    <li><a class="dropdown-item fs-5" href="#">About Us</a></li>
-                                    <li><a class="dropdown-item fs-5" href="#">Facilities</a></li>
-                                    <li><a class="dropdown-item fs-5" href="#">Offer</a></li>
-                                    <li><a class="dropdown-item fs-5" href="#">Gallery</a></li>
-                                    <li><a class="dropdown-item fs-5" href="#">Gallery Carousel</a></li>
+                                <ul class="dropdown-menu m-0 border-0 shadow font">
+                                    <li class="font"><a class="dropdown-item fs-5" href="#">About Us</a></li>
+                                    <li class="font"><a class="dropdown-item fs-5" href="#">Facilities</a></li>
+                                    <li class="font"><a class="dropdown-item fs-5" href="#">Offer</a></li>
+                                    <li class="font"><a class="dropdown-item fs-5" href="#">Gallery</a></li>
+                                    <li class="font"><a class="dropdown-item fs-5" href="#">Gallery Carousel</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown p-4">
-                                <a class="nav-link dropdown-toggle text-white fs-5" href="#" role="button"
+                            <li class="nav-item dropdown p-4 font">
+                                <a class="nav-link dropdown-toggle text-white fs-6 font" href="#" role="button"
                                     data-bs-toggle="dropdown">
                                     Tour
                                 </a>
-                                <ul class="dropdown-menu m-0 border-0 shadow">
-                                    <li><a class="dropdown-item fs-5" href="#">About Us</a></li>
-                                    <li><a class="dropdown-item fs-5" href="#">Facilities</a></li>
-                                    <li><a class="dropdown-item fs-5" href="#">Offer</a></li>
-                                    <li><a class="dropdown-item fs-5" href="#">Gallery</a></li>
-                                    <li><a class="dropdown-item fs-5" href="#">Gallery Carousel</a></li>
+                                <ul class="dropdown-menu m-0 border-0 shadow font">
+                                    <li class="font"><a class="dropdown-item fs-5 font" href="#">About Us</a></li>
+                                    <li class="font"><a class="dropdown-item fs-5 font" href="#">Facilities</a></li>
+                                    <li class="font"><a class="dropdown-item fs-5 font" href="#">Offer</a></li>
+                                    <li class="font"><a class="dropdown-item fs-5 font" href="#">Gallery</a></li>
+                                    <li class="font"><a class="dropdown-item fs-5 font" href="#">Gallery Carousel</a>
+                                    </li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown p-4">
-                                <a class="nav-link dropdown-toggle text-white fs-5" href="#" role="button"
+                            <li class="nav-item dropdown p-4 font">
+                                <a class="nav-link dropdown-toggle text-white fs-6 font" href="#" role="button"
                                     data-bs-toggle="dropdown">
                                     Pages
                                 </a>
-                                <ul class="dropdown-menu m-0 border-0 shadow">
-                                    <li><a class="dropdown-item fs-5" href="#">About Us</a></li>
-                                    <li><a class="dropdown-item fs-5" href="#">Facilities</a></li>
-                                    <li><a class="dropdown-item fs-5" href="#">Offer</a></li>
-                                    <li><a class="dropdown-item fs-5" href="#">Gallery</a></li>
-                                    <li><a class="dropdown-item fs-5" href="#">Gallery Carousel</a></li>
+                                <ul class="dropdown-menu m-0 border-0 shadow font">
+                                    <li class="font"><a class="dropdown-item fs-5 font" href="#">About Us</a></li>
+                                    <li class="font"><a class="dropdown-item fs-5 font" href="#">Facilities</a></li>
+                                    <li class="font"><a class="dropdown-item fs-5 font" href="#">Offer</a></li>
+                                    <li class="font"><a class="dropdown-item fs-5 font" href="#">Gallery</a></li>
+                                    <li class="font"><a class="dropdown-item fs-5 font" href="#">Gallery Carousel</a>
+                                    </li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown p-4">
-                                <a class="nav-link dropdown-toggle text-white fs-5" href="#" role="button"
+                            <li class="nav-item dropdown p-4 font">
+                                <a class="nav-link dropdown-toggle text-white fs-6 font" href="#" role="button"
                                     data-bs-toggle="dropdown">
                                     Blog
                                 </a>
-                                <ul class="dropdown-menu m-0 border-0 shadow">
-                                    <li><a class="dropdown-item fs-5" href="#">About Us</a></li>
-                                    <li><a class="dropdown-item fs-5" href="#">Facilities</a></li>
-                                    <li><a class="dropdown-item fs-5" href="#">Offer</a></li>
-                                    <li><a class="dropdown-item fs-5" href="#">Gallery</a></li>
-                                    <li><a class="dropdown-item fs-5" href="#">Gallery Carousel</a></li>
+                                <ul class="dropdown-menu m-0 border-0 shadow font">
+                                    <li class="font"><a class="dropdown-item fs-5 font" href="#">About Us</a></li>
+                                    <li class="font"><a class="dropdown-item fs-5 font" href="#">Facilities</a></li>
+                                    <li class="font"><a class="dropdown-item fs-5 font" href="#">Offer</a></li>
+                                    <li class="font"><a class="dropdown-item fs-5 font" href="#">Gallery</a></li>
+                                    <li class="font"><a class="dropdown-item fs-5 font" href="#">Gallery Carousel</a>
+                                    </li>
                                 </ul>
                             </li>
-                            <li class="nav-item p-4">
-                                <a class="nav-link disabled text-white fs-5" aria-disabled="true">Contact</a>
+                            <li class="nav-item p-4 font">
+                                <a class="nav-link disabled text-white fs-6 font" aria-disabled="true">Contact</a>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-2 d-flex align-items-center">
-                        <button class="btn btn-outline-primary p-2 px-4" type="submit"style="border-radius:30px 30px 30px 30px;">Request A Quote</button>
+                    <div class="col-2 d-flex align-items-center font">
+                        <button class="btn p-2 px-4 font text-white" type="submit"
+                            style="border-radius:40px 40px 40px 40px; background: rgba(255, 255, 255, 0.25); height:55px; font-weight: 600;">
+                            Request A Quote
+                            <i class="bi bi-arrow-right"></i>
+                        </button>
                     </div>
 
                 </div>
             </div>
         </nav>
     </header>
-    <main></main>
+    <div class="background-img">
+        <span class="span text-white" style="font-size: 18px;">Get unforgettable pleasure with us</span>
+        <h2 class="text-white" style="font-size: 74px;">Discover Your <br> Next <br> Handpicked <br> Journey</h2>
+        <p class="text-white font" style="line-height:1.5;">There are many variations of passages of available, but the
+            majority have suffered <br> alteration in <br>
+            some form, by injected humour words which do not look even slightly believable.
+        </p>
+    </div>
+    <main>
+        <!-- banner section -->
+        <section class="booking py">
+            <div class="container ">
+                <div class="row">
+                    <div class="rectengle p-5"
+                        style="width:100%; height:315px;border: 1px solid #E1E4E5; border-radius: 20px;">
+                        <div class="title d-flex">
+                            <div class="col">
+                                <h3 class="font" style="color:#0a1f24; font-size: 36px; font-weight:600;">Find The Best
+                                    Place
+                                </h3>
+                            </div>
+                            <ul class="nav">
+                                <li class="nav-item wow fadeInUp " data-wow-delay=".3s">
+                                    <a href=#thumb1 class="nav-link" data-bs-toggle="tab"
+                                        style="width:80px; height:42px; border:1px solid #e6e6e6; margin-right: 10px; border-radius: 5px; color:black; font-weight: 400; ">Hotels</a>
+                                </li>
+                                <li class="nav-item wow fadeInUp active" data-wow-delay=".5s">
+                                    <a href="#thumb2" data-bs-toggle="tab" class="nav-link"
+                                        style="width:80px; height:42px; border:1px solid #e6e6e6; margin-right: 10px; border-radius: 5px; color:black; font-weight: 400; ">Tour</a>
+                                </li>
+                                <li class="nav-item wow fadeInUp " data-wow-delay=".7s">
+                                    <a href="#thumb3" data-bs-toggle="tab" class="nav-link"
+                                        style="width:80px; height:42px; border:1px solid #e6e6e6; margin-right: 10px; border-radius: 5px; color:black; font-weight: 400; ">Flight</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane ">
+                                <div class="comment-form-wrap">
+                                    <form action="#" id="contact-form220" method="POST">
+                                        <div
+                                            class="row g-4 row-cols-1 row-cols-md-2 row-cols-xl-5 p-4 align-items-center">
+                                            <div class="col">
+                                                <div class="form-clt font">
+                                                    <span>Looking For</span>
+                                                    <input id="name21" placeholder="Tour Name" type="text" name="name">
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-clt"><span
+                                                        style="font-size:16px; font-weight:700; margin-bottom: 20px;">Price</span>
+                                                    <div class="form"><select class="single-select w-100">
+                                                            <option>Price</option>
+                                                            <option>$1000</option>
+                                                            <option>$1300</option>
+                                                            <option>$1500</option>
+                                                            <option>$2000</option>
+                                                        </select></div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-clt"><span>Location</span>
+                                                    <div class="form"><select class="single-select w-100">
+                                                            <option>All City</option>
+                                                            <option>London</option>
+                                                            <option>Canada</option>
+                                                            <option>Denmark</option>
+                                                            <option>Finland</option>
+                                                        </select></div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-clt"><span>Departure Month</span>
+                                                    <div class="form-clt"><input id="date1" type="date" name="date1">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-clt"><span>Departure Month</span><button type="submit"
+                                                        class="theme-btn w-100">Search<i
+                                                            class="fa-solid fa-magnifying-glass"></i></button></div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="tab-pane active" id="thumb2">
+                                <div class="comment-form-wrap">
+                                    <form action="#" id="contact-form22" method="POST">
+                                        <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-xl-5"
+                                            style="margin-top: 5px;">
+                                            <div class="col">
+                                                <div class="form-clt"><span
+                                                        style="font-size:16px; font-weight:600;">Looking For</span>
+                                                    <input id="name22" placeholder="Tour Name" type="text" name="name"
+                                                        style="margin-top: 20px; height:50px; width:225px; border-radius: 5px; padding-left: 20px; background-color:#f7f7f7;"
+                                                        class="border-0">
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-clt"><span
+                                                        style="font-size:16px; font-weight:600; margin-bottom: 20px;">Price</span>
+                                                    <div class="form"><select class="single-select w-100"
+                                                            style="margin-top: 20px; height:50px; width:220px; border-radius: 5px; padding-left: 20px; color:#757575; background-color:#f7f7f7; border: none;">
+                                                            <option>Price</option>
+                                                            <option>$1000</option>
+                                                            <option>$1300</option>
+                                                            <option>$1500</option>
+                                                            <option>$2000</option>
+                                                        </select></div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-clt"><span
+                                                        style="font-size:16px; font-weight:600; margin-bottom: 20px;">Location</span>
+                                                    <div class="form"><select class="single-select w-100"
+                                                            style="margin-top: 20px; height:50px; width:200px; border-radius: 5px; padding-left: 20px; color:#757575; background-color:#f7f7f7;border: none;">
+                                                            <option>All City</option>
+                                                            <option>London</option>
+                                                            <option>Canada</option>
+                                                            <option>Denmark</option>
+                                                            <option>Finland</option>
+                                                        </select></div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-clt"><span
+                                                        style="font-size:16px; font-weight:600; margin-bottom: 20px;">Departure
+                                                        Month</span>
+                                                    <div class="form-clt"><input id="date2" type="date" name="date1"
+                                                            style="margin-top: 20px; height:50px; width:225px; border-radius: 5px; padding-left: 20px; color:#757575; background-color:#f7f7f7;border: none;">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-clt"><span
+                                                        style="font-size:16px; font-weight:600; margin-bottom: 20px;">Departure
+                                                        Month</span>
+                                                    <button type="submit" class="theme-btn w-100"
+                                                        style="margin-top: 20px; height:50px; border-radius: 5px; background-color:#113d48; border:none; color:white;">Search<i
+                                                            class="fa-solid fa-magnifying-glass"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="tab-pane ">
+                                <div class="comment-form-wrap">
+                                    <form action="#" id="contact-form32" method="POST">
+                                        <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-xl-5">
+                                            <div class="col">
+                                                <div class="form-clt"><span>Looking For</span><input id="name2"
+                                                        placeholder="Tour Name" type="text" name="name"></div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-clt"><span> Price</span>
+                                                    <div class="form"><select class="single-select w-100">
+                                                            <option>Price</option>
+                                                            <option>$1000</option>
+                                                            <option>$1300</option>
+                                                            <option>$1500</option>
+                                                            <option>$2000</option>
+                                                        </select></div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-clt"><span>Location</span>
+                                                    <div class="form"><select class="single-select w-100">
+                                                            <option>All City</option>
+                                                            <option>London</option>
+                                                            <option>Canada</option>
+                                                            <option>Denmark</option>
+                                                            <option>Finland</option>
+                                                        </select></div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-clt"><span>Departure Month</span>
+                                                    <div class="form-clt"><input id="date3" type="date" name="date1">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-clt"><span>Departure Month</span><button type="submit"
+                                                        class="theme-btn w-100">Search<i
+                                                            class="fa-solid fa-magnifying-glass"></i></button></div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About us section    -->
+        <section class="about-us py">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-5">
+                        <div class="tour-img" style="position:relative;">
+                            <img src="./assets/images/tour-booking/03 (1).webp" alt="img1"
+                                style="width:330px; height:511px; position: absolute; top: 0px; left: 10%; border-radius: 20px; z-index: 1;">
+                            <img src="./assets/images/tour-booking/04.webp" alt="img2"
+                                style="width:212px; height:125px; position: absolute; top:5%; left:0; margin-top:50%; border-radius: 20px; border:8px solid #fff; box-shadow: 0 4px 25px 0 rgba(0,0,0,.09); z-index:2; ">
+                            <img src="./assets/images/tour-booking/05.webp" alt="img3"
+                                style="width:300px; height:427px; position: absolute; left: 55%; margin-top:25%; border-radius: 20px; border:8px solid #fff; box-shadow: 0 4px 25px 0 rgba(0,0,0,.09); z-index: 2;">
+                            <img src="./assets/images/tour-booking/plane-shape2.webp" alt="plane"
+                                style="position: absolute; left:35%; z-index:-1; margin-top: 4%;">
+
+                        </div>
+                    </div>
+                    <div class="col-6 align-items-center">
+                        <span class="span" style="color:#1CA8CB; font-size: 18px ;">Get About Us</span>
+                        <h2 class="font"
+                            style="font-size: 48px; font-weight: 700; line-height: 125%; color:#0A1F24; margin-bottom: 30px;">
+                            We Are Strived Only For The Best In The World</h2>
+                        <p class="font" style="font-size: 16px; color: #687179;">There are many variations of passages
+                            of available, but the majority have suffered alteration in some form, by injected humour
+                            words which do not look even slightly believable injected humour words which</p>
+                        <div class="about-items wow fadeInUp wow d-flex"
+                            style="align-items: center; gap: 150px; margin-top: 30px;" data-wow-delay=".3s">
+                            <div class="about-icon-items d-flex">
+                                <div class="icon">
+                                    <img alt="img" loading="lazy" width="34" height="30" decoding="async" data-nimg="1"
+                                        src="./assets/images/tour-booking/check.webp"
+                                        style="color: transparent; margin-right: 20px;">
+                                </div>
+                                <div class="content">
+                                    <h5 style="font-size: 18px; font-weight: 700; display: inline-block;" class="font">
+                                        Easy Booking <br> System</h5>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <p style="font-size: 16px; display: inline-block; color:#687179;">Our hotel also prides
+                                    itself on <br> offering exceptional services.</p>
+                            </div>
+                        </div>
+
+                        <div class="about-items wow fadeInUp wow d-flex"
+                            style="align-items: center; gap: 150px; margin-top: 30px;" data-wow-delay=".3s">
+                            <div class="about-icon-items d-flex">
+                                <div class="icon">
+                                    <img alt="img" loading="lazy" width="34" height="30" decoding="async" data-nimg="1"
+                                        src="./assets/images/tour-booking/check.webp"
+                                        style="color: transparent; margin-right: 20px;">
+                                </div>
+                                <div class="content">
+                                    <h5 style="font-size: 18px; font-weight: 700; display: inline-block;" class="font">
+                                        Easy Booking <br> System</h5>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <p style="font-size: 16px; display: inline-block; color:#687179;">Our hotel also prides
+                                    itself on <br> offering exceptional services.</p>
+
+                            </div>
+                        </div>
+                        <button class="btn p-2 px-4 font text-white" type="submit"
+                            style="border-radius:40px 40px 40px 40px; background-color:#113d48; height:55px; font-weight: 700; margin-top: 50px; font-size: 16px;">
+                            Discover More
+                            <i class="bi bi-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- counter section -->
+        <section class="counter py" style="width:100%; background-color: #1CA8CB;">
+            <div class="container">
+                <div class="row">
+                    <div class="counter-items  d-flex"
+                        style=" padding:50px 0;  justify-content:space-between; width:100%;">
+                        <div class="counter-content"
+                            style=" border-right: 1px solid rgb(169, 175, 191); padding-right: 100px;">
+                            <h2 class="font text-white" style="font-size: 54px; font-weight: 700;  width: 100%;">
+                                <span class="counter">26</span>
+                                +
+                            </h2>
+                            <p class="text-white font" style="font-size:16px; font-weight:500;">Years Experiences</p>
+                        </div>
+                        <div class="counter-content"
+                            style=" border-right: 1px solid rgb(169, 175, 191); padding-right: 100px;">
+                            <h2 class="font text-white" style="font-size: 54px; font-weight:700; width: 100%;">
+                                <span class="counter">3.6</span>
+                                +
+                            </h2>
+                            <p class="text-white font" style="font-size:16px; font-weight:500;">Yearly Customers</p>
+                        </div>
+                        <div class="counter-content"
+                            style=" border-right: 1px solid rgb(169, 175, 191); padding-right: 100px;">
+                            <h2 class="font text-white" style="font-size: 54px; font-weight: 700; width: 100%;">
+                                <span class="counter">46</span>
+                                +
+                            </h2>
+                            <p class="text-white font" style="font-size:16px; font-weight:500;">Visitors daily</p>
+                        </div>
+                        <div class="counter-content" style="padding-right: 100px;">
+                            <h2 class="font text-white" style="font-size: 54px; font-weight: 700;  width: 100%;">
+                                <span class="counter">56</span>
+                                +
+                            </h2>
+                            <p class="text-white font" style="font-size:16px; font-weight:500;">Awards & honors</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--destination  -->
+        <section class="destination py">
+            <div class="container">
+                <div class="row">
+                    <div class="title">
+                        <span class="span"
+                            style="color:#1CA8CB; font-size:18px; font-weight:400;margin-bottom: 10px;text-transform: capitalize;">Our
+                            Destination</span>
+                        <div
+                            style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;">
+                            <h2 class="font"
+                                style="color:#0A1F24; font-size: 48px; font-weight: 700; line-height: 125%;">Our Top
+                                Location For <br> You Property</h2>
+                            <button class="btn p-2 px-4 font text-white" type="submit"
+                                style="border-radius:40px 40px 40px 40px; background-color:#1CA8CB;width:180px; height:60px; font-weight: 700; margin-top: 50px; font-size: 16px;">
+                                Learn More
+                                <i class="bi bi-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          
+                            <div class="carousel-item active">
+                                <img src="./assets/images/destination/01.webp" style="width:399px; height:504px; border-radius: 20px;margin-right: 30px;" alt="img1">
+                   
+                         
+                                <img src="./assets/images/destination/02.webp" style="width:399px; height:504px; border-radius: 20px;margin-right: 30px;" alt="img2">
+                         
+                         
+                                <img src="./assets/images/destination/03.webp" style="width:399px; height:504px; border-radius: 20px;margin-right: 30px;" alt="img3">
+                                 </div>
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
     <footer></footer>
 
 </body>

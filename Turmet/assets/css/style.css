@@ -1,13 +1,47 @@
-
-:root{
-    --bs-primary:#1ca8cb;
-    --bs-secondary:#113d48;
-    --bs-dark: #181818;
-    --bs-font-sans-serif: 'Jost';
+:root {
+    --bs-primary: #1CA8CB;
+    --bs-secondary: #113d48;
+    --bs-font: 'Manrope';
+    --bs-discription-text: 'Kalam';
 }
-a{
+.font {
+    font-family: var(--bs-font);
+}
+.span {
+    font-family: var(--bs-discription-text);
+}
+.py{
+    margin-bottom: 100px;
+}
+a {
     text-decoration: none;
 }
-ul{
+ul {
     list-style: none;
+}
+.background-img {
+    background-image: url('https://turmet-nextjs.vercel.app/assets/img/hero/hero2.jpg');
+    background-size: cover;
+    background-position: top center;
+    padding: 400px 30px 120px;
+    height:999.34px;
+     margin:20px; border-radius: 20px;
+}
+.text{
+    position: relative;
+}
+.text:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background:#1CA8CB;
+    width: 2px;
+    height: 41px;
+    left: -27px;
+    top: 8px;
 }
