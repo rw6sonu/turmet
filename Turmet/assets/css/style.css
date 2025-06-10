@@ -10,8 +10,17 @@
 .span {
     font-family: var(--bs-discription-text);
 }
+.blue{
+    color:#1CA8CB;
+}
+.gray{
+    color:#687179;
+}
 .py{
     margin-bottom: 100px;
+}
+.orange{
+    color:#f16522;
 }
 a {
     text-decoration: none;
