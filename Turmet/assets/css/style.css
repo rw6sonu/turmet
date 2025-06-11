@@ -4,41 +4,53 @@
     --bs-font: 'Manrope';
     --bs-discription-text: 'Kalam';
 }
+
 .font {
     font-family: var(--bs-font);
 }
+
 .span {
     font-family: var(--bs-discription-text);
 }
-.blue{
-    color:#1CA8CB;
+
+.blue {
+    color: #1CA8CB;
 }
-.gray{
-    color:#687179;
+
+.gray {
+    color: #687179;
 }
-.py{
+
+.py {
     margin-bottom: 100px;
 }
-.orange{
-    color:#f16522;
+
+.orange {
+    color: #f16522;
 }
+
 a {
     text-decoration: none;
 }
+
 ul {
     list-style: none;
 }
+
 .background-img {
     background-image: url('https://turmet-nextjs.vercel.app/assets/img/hero/hero2.jpg');
     background-size: cover;
     background-position: top center;
     padding: 400px 30px 120px;
-    height:999.34px;
-     margin:20px; border-radius: 20px;
+    height: 999.34px;
+    margin: 20px;
+    border-radius: 20px;
 }
-.text{
+
+.text {
     position: relative;
 }
+
 .text:before {
     position: absolute;
     top: 0;
@@ -48,14 +60,82 @@ ul {
     width: 100%;
     height: 100%;
     content: "";
-    background:#1CA8CB;
+    background: #1CA8CB;
     width: 2px;
     height: 41px;
     left: -27px;
     top: 8px;
 }
-.bg-img{
+
+.bg-img {
     background-image: url('https://turmet-nextjs.vercel.app/assets/img/choose-us-bg-2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.footer {
+    background-image: url('file:///C:/Users/RNW/Downloads/turmet-main%20(4)/turmet-main/Turmet/assets/images/footer/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.line::before {
+    position: absolute;
+    top: 18%;
+    left: 12px;
+    width: 60px;
+    height: 2px;
+    content: '';
+    background-color: #1CA8CB;
+}
+
+.line1::before {
+    position: absolute;
+    top: 18%;
+    left: 0;
+    width: 60px;
+    height: 2px;
+    content: '';
+    background-color: #1CA8CB;
+}
+
+.line2::before {
+    position: absolute;
+    top: 19.9%;
+    left: 0;
+    width: 60px;
+    height: 2px;
+    content: '';
+    background-color: #1CA8CB;
+}
+
+.btn {
+    position: relative;
+    background-color: transparent;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 1;
+     border: 1px solid #0A1F24;
+}
+.btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0A1F24;
+    transform: translateX(-100%);
+    transition: all .3s;
+    z-index: -1;
+}
+.btn:hover::before {
+    transform: translateX(0);
+}
+.booking .title ul li a .nav-link{
+    color:black;
+}
+.booking .title ul li a:focus.nav-link{
+    background-color: #0A1F24;
+    color:white;
 }
