@@ -108,14 +108,13 @@ ul {
     content: '';
     background-color: #1CA8CB;
 }
-
 .btn {
     position: relative;
     background-color: transparent;
     text-decoration: none;
     overflow: hidden;
     z-index: 1;
-     border: 1px solid #0A1F24;
+    border: 1px solid #0A1F24;
 }
 .btn::before {
     content: "";
@@ -132,10 +131,51 @@ ul {
 .btn:hover::before {
     transform: translateX(0);
 }
-.booking .title ul li a .nav-link{
-    color:black;
+
+.booking .title ul li a .nav-link,.nav li a {
+    color: black;
 }
-.booking .title ul li a:focus.nav-link{
+
+.booking .title ul li a:focus.nav-link {
     background-color: #0A1F24;
-    color:white;
+    color: white;
+}
+.top-bar ul li a i:hover,nav ul li a:hover{
+    color:#1CA8CB;
+}
+@keyframes slideX {
+  0% {
+    transform: translateX(30px);
+    
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+       transform: translateX(30px);
+  
+  }
+}
+.slide-x {
+ animation: slideX 3s ease-out forwards;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+}
+@keyframes slideY {
+  0% {
+    transform: translateY(-30px);
+    
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+       transform: translateY(-30px);
+  
+  }
+}
+.slide-y{
+    animation: slideY 3s ease-out forwards;
+       animation-iteration-count: infinite;
+     animation-timing-function: linear;
 }
